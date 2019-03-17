@@ -12,10 +12,7 @@ module.exports = {
       }
     },
     {
-      use: `gridsome-plugin-netlify-cms`,
-      options: {
-        modulePath: `src/admin/index.js` 
-      }
+      use: `gridsome-plugin-netlify-cms`
     } 
   ]
 }
